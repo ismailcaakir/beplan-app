@@ -40,7 +40,6 @@ dependencies:
   app_tracking_transparency: ^2.0.2+1
   get: ^4.6.1
   get_storage: ^2.0.3
-  onesignal_flutter: ^3.2.8
 
 dev_dependencies:
   flutter_test:
@@ -65,8 +64,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - lib/assets
+  #assets:
+   # - lib/assets
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
