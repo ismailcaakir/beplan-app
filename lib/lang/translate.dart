@@ -1,3 +1,4 @@
+// ignore_for_file: library_prefixes
 import 'package:get/get_navigation/src/root/internacionalization.dart';
 import './i18n/en.dart' as TranslateEnString;
 
