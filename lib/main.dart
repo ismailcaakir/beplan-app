@@ -34,6 +34,7 @@ class BePlan extends StatelessWidget {
       translations: Translate(),
       locale: const Locale('en', 'US'),
       fallbackLocale: const Locale('en', 'US'),
+      theme: ThemeConfig.lightTheme,
       initialRoute: RoutesConfig.dashboardPage,
     );
   }

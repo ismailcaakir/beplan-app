@@ -1,3 +1,7 @@
 Map<String, String> trans = {
-  "asdsa": 'Example!!',
+  "Example": 'Example!!',
+  "Tasks": "Tasks",
+  "Calendar": "Calendar",
+  "Profile": "Profile",
+  "Settings": "Settings",
 };
