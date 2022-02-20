@@ -7,6 +7,9 @@ abstract class ThemeConfig {
       color: Colors.white,
       centerTitle: false,
       shadowColor: Colors.transparent,
+      iconTheme: const IconThemeData().copyWith(
+        color: Colors.black,
+      ),
       titleTextStyle: GoogleFonts.poppins(
         fontSize: 24,
         color: Colors.black,
@@ -36,7 +39,7 @@ abstract class ThemeConfig {
       ),
       enableFeedback: true,
     ),
-    floatingActionButtonTheme: FloatingActionButtonThemeData().copyWith(
+    floatingActionButtonTheme: const FloatingActionButtonThemeData().copyWith(
       backgroundColor: Colors.blue[800],
     ),
     scaffoldBackgroundColor: Colors.white,
