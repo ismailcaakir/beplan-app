@@ -1,12 +1,13 @@
+import 'controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class DashboardController extends GetxController {
+class DashboardController extends BaseController {
   late PageController pageController;
   var currentIndex = 0.obs;
 
   @override
-  void onInit() {
+  Future<void> onInit() async {
     super.onInit();
     pageController = PageController(initialPage: 0, keepPage: false);
     pageController.addListener(_pageControllerListener);

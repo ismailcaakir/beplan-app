@@ -28,7 +28,7 @@ class NoEntityWidget extends StatelessWidget {
             style: TextStyle().copyWith(
               fontSize: 20,
               fontWeight: FontWeight.w500,
-              color: Colors.black,
+              color: AppColors.grey,
             ),
           ),
           const SizedBox(
@@ -39,7 +39,7 @@ class NoEntityWidget extends StatelessWidget {
             style: TextStyle().copyWith(
               fontSize: 18,
               fontWeight: FontWeight.normal,
-              color: Colors.grey,
+              color: AppColors.grey,
             ),
           ),
         ],

@@ -4,14 +4,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import './lang/translate.dart';
-import './config/config.dart';
+import 'package:sqflite/sqflite.dart';
+import 'package:beplan/lang/translate.dart';
+import 'package:beplan/config/config.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // await AppTrackingTransparency.requestTrackingAuthorization();
   // await Firebase.initializeApp();
   await GetStorage.init("BePlanApp");
+
+  String path =
+      await getDatabasesPath(); // which is data/data/<package_name>/databases
+
+  print(path);
 
   runApp(const BePlan());
 }

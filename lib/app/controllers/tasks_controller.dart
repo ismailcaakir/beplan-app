@@ -1,3 +1,3 @@
-import 'package:get/get.dart';
+import 'controller.dart';
 
-class TasksController extends GetxController {}
+class TasksController extends BaseController {}
